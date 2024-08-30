@@ -54,8 +54,9 @@ label {
     /* color: #000; */
     display: block;
     /* color: black; */
-    font-size: larger;
+    font-size: x-large;
     margin: 10px 0 5px;
+
 }
 
 input[type="text"], input[type="password"] {
@@ -63,6 +64,7 @@ input[type="text"], input[type="password"] {
     width: 300px;
     height: 55;
     padding: 10px;
+    font-size: larger;
     margin-bottom: 20px;
     border-radius: 15px;
     
@@ -74,9 +76,11 @@ button {
     background-color: #007bff;
     color: white;
     border: none;
+    font-size: larger;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    width: max-content;
 }
 
 button:hover {
