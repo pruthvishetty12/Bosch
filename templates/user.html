@@ -23,15 +23,15 @@
     </div>
     
     <div class="content">
-        <h2>Check Part Numbers</h2>
+        <h1>Loading List SMT</h1><br>
         <form method="POST" action="{{ url_for('user') }}">
-            <label for="main_part_number">Main Part Number:</label>
-            <input type="text" id="main_part_number" name="main_part_number" value="{{ main_part_number }}" required>
-
-            <label for="sub_part_number">Sub Part Number:</label>
-            <input type="text" id="sub_part_number" name="sub_part_number" value="{{ sub_part_number }}" required>
-
-            <button type="submit">Check</button>
+            <label for="main_part_number">Main Part Number:</label><br>
+            <input type="text" id="main_part_number" name="main_part_number" value="{{ main_part_number }}" required><br>
+            <br>
+            <label for="sub_part_number">Sub Part Number:</label><br>
+            <input type="text" id="sub_part_number" name="sub_part_number" value="{{ sub_part_number }}" required><br>
+            <br>
+            <button type="submit">Check</button><br><br>
         </form>
        
         {% if error %}
