@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f2f2;
+     */
+     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+     /* bottom, image */
+     url('/static/user.jpg');
+       background-size:cover; 
+       background-position:top; 
+       background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+.logo img {
+    margin-left: 20px;
+    height: 30px;
+}
+
+.welcome-message {
+    padding: 5px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+/* h2{
+ background-color: #02BFD8;
+} */
+
+
+
+/* .header {
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* align-items: center; 
+    color: white;
+} */
+
+/* .user-message {
+    margin-right: 20px;
+} */
+
+.logout a {
+    background-color: #02BFD8;
+    padding: 5px;
+    /* margin-top: 10; */
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    margin-right: 20px;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 50px;
+    color: #ccc;
+    width: 40%;
+    background-color: #151515bf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight:bolder;
+}
+
+input[type="text"] {
+    width: 90%;
+    background-color: #b0f1fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+.message {
+
+    color: rgb(0, 255, 89);
+    margin-top: 10px;
+}
